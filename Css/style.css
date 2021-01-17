@@ -230,7 +230,7 @@ header, .navbar{
 }
 #oCasamento{
     font-size: 45px;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 #w1{
@@ -282,7 +282,7 @@ header, .navbar{
 #where{
     background-image: url("/Assets/Backgrounds/goldrosegif.gif");
     background-size: cover;
-    height: 1400px;
+    height: 1150px;
 }
 
 #write_local1{
