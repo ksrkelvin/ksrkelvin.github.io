@@ -229,27 +229,31 @@ header, .navbar{
 
 }
 #oCasamento{
-    margin-top: 150px;
+    font-size: 45px;
+    margin-top: 100px;
 }
 
 #w1{
     float: left;
-    margin: 100px;
+    margin: 50px;
     margin-right: 0;
-    margin-top: 50px;
+    padding: 0;
 }
 #w2{
     float: right;
-    margin: 100px;
+    margin: 50px;
     margin-left: 0;
-    margin-top: 50px;
+    padding: 0;
 }
+
 #quando{
     font-size: 50px;
 }
+
 #onde{
     font-size: 50px;
 }
+
 #img_rosa{
     height: 100px;
     width: 100px;
@@ -261,21 +265,23 @@ header, .navbar{
 
 @media screen and (max-width:768px){
     #wedding_container{
-        height: 800px;
+        height: 1000px;
 
     }
     
     #w1{
         float: none;
-        margin: 100px;
+        margin: 50px;
     }
     #w2{
         float: none;
-        margin: 100px;
+        margin: 50px;
+       
     }
 }
 #write_local{
-    margin-top: 20px;
+    position: relative;
+    top: 50px;
     color: #fff;
     margin-bottom: 10px;
 }
@@ -283,9 +289,9 @@ header, .navbar{
 
 #where_container{
     position: relative;
-    top: 80px;
+    top: 100px;
     width: 100%;
-    height: 700px;
+    height: 600px;
     background-image: url("/Assets/Backgrounds/goldrosegif.gif");
     background-size: cover;
     text-align: center;
