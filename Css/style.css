@@ -325,9 +325,9 @@ header, .navbar{
 
 #list_container{
     padding: 30px;
-    color: #fff;
+    color: #c78f8c;
     text-align: center;
-    background-color: #d4c0bf;
+    /* background-color: #d4c0bf; */
     height: 500px;
 }
 
@@ -336,11 +336,38 @@ header, .navbar{
     width: 60%;
     height: 400px;
     margin: auto;
+    
+    
+}
+
+.carousel-caption, .carousel-caption h2{
+    color: #fff;
+    font-size: 20px;
+    
+    
+}
+.carousel-caption ul{
+    text-align: left;
+    margin-bottom: 100px;
 }
 
 
 @media screen and (max-width: 768px){
     #list_carousel, #list_carousel img{
         width: 90%;
+        
+        
+    }
+    .carousel-caption ul{
+        margin-bottom: 0;
+        font-size: 18px;
+        
+    }
+    
+}
+@media screen and (max-width:370px){
+    #cozinha{
+    
+        font-size: 15px;
     }
 }
