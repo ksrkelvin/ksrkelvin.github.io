@@ -238,6 +238,7 @@ header, .navbar{
 
 #wedding{
     height: 90vh;
+    display: flex;
 }
 
 #wedding_container{
@@ -278,13 +279,13 @@ header, .navbar{
 
 @media screen and (max-width:768px){
     #wedding_container{
-        height: 1000px;
+        height: 1300px;
 
     }
     
     #w1{
         float: none;
-        margin: 50px;
+        margin: 0px;
     }
     #w2{
         float: none;
@@ -295,7 +296,7 @@ header, .navbar{
 #where{
     background-image: url("/Assets/Backgrounds/goldrosegif.gif");
     background-size: cover;
-    height: 100vh;
+    height: 150vh;
 }
 
 #write_local1{
@@ -334,52 +335,23 @@ header, .navbar{
     
 }
 
+@media screen and (max-width:768px) {
+    #where{
+        margin-top: 150px;
+    }
+}
+
 #list_container{
-    padding: 30px;
+    padding: 10px;
     color: #c78f8c;
     text-align: center;
-    /* background-color: #d4c0bf; */
-    height: 500px;
+    height: 150px;
 }
 
-#list_carousel,#list_carousel img {
-    text-align: center;
-    width: 60%;
-    height: 400px;
-    margin: auto;
-    font-family: Arial, Helvetica, sans-serif;
-    
-    
+#list_container h2{
+    font-size: 8vw;
 }
-
-.carousel-caption, .carousel-caption h2{
-    color: #fff;
-    font-size: 20px;
-    
-    
-}
-.carousel-caption ul{
-    text-align: left;
-    margin-bottom: 100px;
-}
-
-
-@media screen and (max-width: 768px){
-    #list_carousel, #list_carousel img{
-        width: 100%;
-        
-        
-    }
-    .carousel-caption ul{
-        margin-bottom: 0;
-        font-size: 18px;
-        
-    }
-    
-}
-@media screen and (max-width:370px){
-    #cozinha{
-    
-        font-size: 15px;
-    }
+#list_container img{
+    width: 10vw;
+    margin-bottom: 10px;
 }
